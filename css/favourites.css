@@ -5,4 +5,36 @@ html , body {
   font-size: 16px;
   line-height: 1.9rem;
   font-family:'Acme', sans-serif;
+  color: #fff;
+}
+
+section{
+  padding: 50px 10%;
+}
+
+body{
+  /* overflow: hidden; */
+  background-color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.heading{
+  text-align: center;
+  display: grid;
+}
+
+.polygon {
+  position: relative;
+  height: 100vh;
+  flex-grow: 1;
+  margin: auto;
+  max-width: 800px;
+  /* max-height: 700px; */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap:2vmin;
+  justify-items: center;
+  align-items: center;
 }
