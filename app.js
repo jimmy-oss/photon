@@ -1,4 +1,4 @@
-const auth = "563492ad6f9170000100000114b84eb6bdfe4a4ebf1b48ca797196ef";
+const auth = "563492ad6f9170000100000105226fe0c9714d208bbdf58a4d4cf46e";
 const gallery = document.querySelector(".gallery");
 const searchInput = document.querySelector(".search-input");
 const form = document.querySelector(".search-form");
@@ -36,7 +36,7 @@ async function fetchApi(url) {
 }
 
 function generatePictures(data) {
-  data.photos.forEach((photo) => {
+    data.photos.forEach(photo =>{
     const galleryImg = document.createElement("div");
     console.log(photo);
     galleryImg.classList.add("gallery-img");
@@ -49,8 +49,8 @@ function generatePictures(data) {
     `;
     gallery.appendChild(galleryImg);
   });
-}
 
+}
 async function curatedPhotos() {
   fetchLink = "https://api.pexels.com/v1/curated?per_page=15&page=1";
   const data = await fetchApi(fetchLink);
