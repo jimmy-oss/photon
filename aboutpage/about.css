@@ -110,3 +110,24 @@ ul{
 
 }
 
+/* Responsiveness */
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .custom-image-col{
+        width: 50%;
+    }
+}@media(max-width:576px){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .custom-image-col{
+        width: 100%;
+        padding: 0 40px;
+
+    }
+}
+
