@@ -29,8 +29,7 @@ section{
   height: 100vh;
   flex-grow: 1;
   margin: auto;
-  max-width: 800px;
-  /* max-height: 700px; */
+  /* max-width: 800px; */
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -51,7 +50,7 @@ img {
 }
 
 img:hover {
-  -ms-transform: scale(2); /* IE 9 */
-  -webkit-transform: scale(2); /* Safari 3-8 */
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
   transform: scale(2); 
-}
+} 
