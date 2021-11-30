@@ -19,6 +19,18 @@
 #navbarNav ul li .active{
     color: red;
 }
+/* Cards Section */
+.custom-shadow{
+    box-shadow: 3px 3px 10px silver;
+}
+.custom-shadow:hover{
+    background-color: rgb(231, 231, 231);
+    transition: .3s ease;
+}
+.cards .information{
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
