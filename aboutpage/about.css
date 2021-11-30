@@ -31,6 +31,14 @@
     text-align: center;
     margin-top: 10px;
 }
+/* History section */
+.history{
+    background-color: silver;
+    opacity: 1;
+}
+.history h5{
+    padding-top: 10px;
+}
 
 
 
