@@ -100,7 +100,7 @@ span{
   align-items: center;
 }
 
-img{
+.polygon img{
   grid-column: span 2;
   width: 200px;
   height: 200px;
@@ -110,7 +110,7 @@ img{
  
 }
 
-img:hover {
+.polygon img:hover {
   -ms-transform: scale(2);
   -webkit-transform: scale(2);
   transform: scale(2); 
