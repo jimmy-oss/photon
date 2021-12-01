@@ -19,6 +19,8 @@
 #navbarNav ul li .active{
     color: red;
 }
+ 
+
 /* Search menu */
 ::selection{
     color: #fff;
@@ -29,13 +31,11 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    margin-top: 1rem;
-    margin-left: 35rem;
+    margin-top: -16rem;
+    margin-left: 37rem;
     box-shadow: 5px 5px 30px rgba(0,0,0,.2);
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     z-index: 100;
-    
-    
   }
   .search-box.active{
     width: 350px;

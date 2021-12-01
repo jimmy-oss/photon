@@ -68,7 +68,9 @@ function generatePictures(data) {
     <div class="gallery-info">
     </div>
     <img src="${photo.src.large}"></img>
-    <a href="${photo.photographer_url}">Inquire</a>
+    <p>${photo.photographer}</p>
+    <a href="${photo.src.original}">Download</a>
+     
     `;
     gallery.appendChild(galleryImg);
   });
