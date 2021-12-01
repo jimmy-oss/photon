@@ -1,77 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,500&display=swap');
 *{
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-section{
-    padding: 40px;
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
-/* start header style */
-
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 80px;
-    box-shadow: 1px 1px 1px 1px  coral;
-    background-color:black;
-
+.navbar-brand span{
+    color: red;
 }
-.logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:   coral;
+#navbarNav ul li a:hover{
+    color: red;
 }
-.nav{
-    display: flex;
-
+#navbarNav ul li .active{
+    color: red;
 }
-.nav a{
-    font-size: 1rem;
-    padding: 8px 18px;
-    font-weight: bold;
-    color: coral;
+/* Cards Section */
+.custom-shadow{
+    box-shadow: 3px 3px 10px silver;
 }
-/* End header style */
-
-/* home */
-.home{  
-    display: grid;
-    align-items: center;
+.custom-shadow:hover{
+    background-color: rgb(231, 231, 231);
+    transition: .3s ease;
+}
+.cards .information{
     text-align: center;
-    background-image: url("./tr.jpeg");
-    background-size: cover;
-    grid-template-columns: repeat(2,1fr);
-}
-.name h1{
-    color:  coral;
-    font-size: 2.3rem;
-    font-weight: bolder;
-    margin-bottom: 2rem;
-    padding-top: 20rem;
-    text-align: center;
-    margin-left: -40rem;
-}
-.name p{
-    color: coral;
-    font-size: 2.2rem;
-    line-height: 2.5rem;
-    text-align: center;
-    margin-left: -40rem;
-    margin-bottom: 20rem;
-    font-weight: bolder;
-}
-}
-.name{
-    line-height: 2rem;
-    text-align: center;
+    margin-top: 10px;
 }
