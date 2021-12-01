@@ -24,6 +24,8 @@ body {
 .search-form button {
   border: none;
   padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
   font-size: 1rem;
   margin-top: -2rem;
   background: rgb(64, 68, 131);
@@ -45,7 +47,6 @@ body {
 
 .gallery {
   display: grid;
-   border-radius: 50px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding: 2rem 0rem;
   width: 80%;
@@ -68,10 +69,11 @@ body {
 }
 
 .more {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   background: rgb(64, 68, 131);
   color: white;
-  border: none;
+  border-radius: 40px;
   font-size: 1.2rem;
   cursor: pointer;
+
 }

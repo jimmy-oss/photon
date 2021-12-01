@@ -1,83 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,500&display=swap');
 *{
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-section{
-    padding: 40px;
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
-/* start header style */
-
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 80px;
-    box-shadow: 1px 1px 1px 1px  coral;
-    background-color:black;
-    z-index: 1000;
- 
+.navbar-brand span{
+    color: red;
 }
-.logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:   coral;
+#navbarNav ul li a:hover{
+    color: red;
 }
-.nav{
-    display: flex;
-    z-index: 100;
-
-}
-.nav a{
-    font-size: 1rem;
-    padding: 8px 18px;
-    font-weight: bold;
-    color: coral;
-}
-/* End header style */
-
-/* home */
-.home{  
-    display: grid;
-    align-items: center;
-    text-align: center;
-    background-image: url("../images/tr.jpeg");
-    background-size: cover;
-    grid-template-columns: repeat(2,1fr);
-}
-.name h1{
-    color:  coral;
-    font-size: 2.3rem;
-    font-weight: bolder;
-    margin-bottom: 2rem;
-    padding-top: 20rem;
-    text-align: center;
-    margin-left: -40rem;
-    animation: moveInRight 1s ease-out;
-}
-.name p{
-    color: coral;
-    font-size: 2.2rem;
-    line-height: 2.5rem;
-    text-align: center;
-    margin-left: -40rem;
-    margin-bottom: 20rem;
-    font-weight: bolder;
-    animation: moveInLeft 1s ease-out;
-}
-
-.name{
-    line-height: 2rem;
-    text-align: center;
+#navbarNav ul li .active{
+    color: red;
 }
 /* Search menu */
 ::selection{
@@ -89,11 +29,13 @@ header{
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    margin-top: -10rem;
+    margin-top: 1rem;
     margin-left: 35rem;
     box-shadow: 5px 5px 30px rgba(0,0,0,.2);
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     z-index: 100;
+    
+    
   }
   .search-box.active{
     width: 350px;
