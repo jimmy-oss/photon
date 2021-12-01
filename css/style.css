@@ -8,23 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  min-height: 30vh;
-  justify-content: center;
-  align-items: center;
-}
-
-header h2 {
-  padding: 2rem;
-}
-
-#logo {
-  text-decoration: none;
-  color: black;
-}
-
 .search-form {
   padding: 2rem;
   display: flex;
@@ -33,7 +16,7 @@ header h2 {
 .search-form input {
   font-size: 2rem;
   padding: 0.5rem;
-  width: 100%;
+  width: 50%;
   border: none;
   border: 1px solid rgb(64, 68, 131);
 }
@@ -42,6 +25,7 @@ header h2 {
   border: none;
   padding: 0.5rem;
   font-size: 1rem;
+  margin-top: -2rem;
   background: rgb(64, 68, 131);
   color: white;
   cursor: pointer;
