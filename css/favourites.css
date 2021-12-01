@@ -1,29 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-html , body {
-  /* height: 100%; */
-  font-size: 16px;
-  /* line-height: 1.5; */
-  font-family:'Acme', sans-serif;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+*::selection {
+  background-color: #000;
   color: #fff;
 }
 
+
 body{
-  overflow: hidden;
+  font-size: 1.4rem;
+  font-family:'Acme', sans-serif;
+  /* overflow: hidden; */
+  color: #fff;
   background-color: #000;
-  display: grid;
-  align-items: center;
+  /* display: grid; */
+  /* align-items: center; */
 }
-/* 
-section{
-  padding: 1px 10%;
+
+header{
+  position: fixed;
+  width: 100%;
+  top:0;
+  right:0;
+  z-index:1;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding:5px 80px;
+  background-color: #fff;
+}
+
+.logo{
+  font-weight: 600;
+  color: black;
+}
+
+span{
+  color: red;
+  font-weight: 900;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a{
+  font-size: 1.2rem;
+  padding:10px 20px;
+  font-weight: 500;
+  color: #000;
+  font-weight: 300;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+/* section{
+  padding: 10px 10%;
 } */
 
-.heading{
-  text-align: center;
+.home{
   display: grid;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.home-text h1{
   text-decoration: underline #fff;
-  margin-top: -10px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .polygon {
@@ -32,25 +92,22 @@ section{
   flex-grow: 1;
   margin: auto;
   width: 700px;
-  /* max-width: 100%; */
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap:0.2vmin;
   justify-items: center;
   align-items: center;
-  margin-top: -10px;
 }
 
-img {
-  z-index: 1;
+img{
   grid-column: span 2;
-  margin-bottom: 1%;
-  width: 185px;
-  height: 185px;
+  width: 200px;
+  height: 200px;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   transform: scale(1);
   transition: all .25s;
+ 
 }
 
 img:hover {
