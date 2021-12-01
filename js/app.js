@@ -66,9 +66,9 @@ function generatePictures(data) {
     galleryImg.classList.add("gallery-img");
     galleryImg.innerHTML = `
     <div class="gallery-info">
-    <a href="${photo.photographer_url}">Download</a>
     </div>
     <img src="${photo.src.large}"></img>
+    <a href="${photo.photographer_url}">Inquire</a>
     `;
     gallery.appendChild(galleryImg);
   });
