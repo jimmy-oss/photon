@@ -155,6 +155,24 @@ span{
   margin-top: 5px;
 }
 
+.cards-three{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.social-heading{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.social-heading h3{
+  color: grey;
+}
+
 .blog-post{
   /* max-width: 70rem; */
   width: 85%;
