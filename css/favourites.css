@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,500&display=swap');
 
 
 *{
@@ -19,7 +19,7 @@
 
 body{
   font-size: 1.4rem;
-  font-family:'Acme', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* overflow: hidden; */
   color: #fff;
   background-color: #000;
