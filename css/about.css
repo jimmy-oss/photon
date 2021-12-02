@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.navbar-brand span{
+    color: red;
+}
+#navbarNav ul li a:hover{
+    color: red;
+}
+#navbarNav ul li .active{
+    color: red;
+}
+/* Cards Section */
+.custom-shadow{
+    box-shadow: 3px 3px 10px silver;
+}
+.custom-shadow:hover{
+    background-color: rgb(231, 231, 231);
+    transition: .3s ease;
+}
+.cards .information{
+    text-align: center;
+    margin-top: 10px;
+}
+/* History section */
+.history{
+    background-color: silver;
+    opacity: 1;
+}
+.history h5{
+    padding-top: 10px;
+}
+
+/* Footer */
+.footer{
+    background-color:black;
+    padding: 25px 0;
+    min-height: 300px;
+    padding-bottom: 40px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h3{
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 20px;
+}
+.footer-col h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: red;
+    box-sizing: border-box;
+    width: 50px;
+    height: 2px;
+}.footer-col ul li:not(:last){
+    margin-bottom: 44px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+    display: block;
+
+}
+.footer-col ul li a:hover{
+    padding-left: 10px;
+
+}
+
+.footer-col .social-icon a{
+    background-color: white;
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+}
+.footer-col .social-icon a:hover{
+    transition: 0.3 ease;
+    background-color: black;
+    color: white;
+
+}
+
+/* Responsiveness */
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .custom-image-col{
+        width: 50%;
+    }
+}@media(max-width:576px){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .custom-image-col{
+        width: 100%;
+        padding: 0 40px;
+
+    }
+}
+
