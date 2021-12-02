@@ -121,13 +121,14 @@ ul{
     }
 }@media(max-width:576px){
     .footer-col{
-        width: 100%;
+        width: 80%;
+        margin-right: 5.7rem;
         margin-bottom: 30px;
     }
     .custom-image-col{
-        width: 100%;
+        width: 50%;
         padding: 0 40px;
-
     }
+    
 }
 
