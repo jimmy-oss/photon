@@ -113,7 +113,7 @@ ul{
 /* Responsiveness */
 @media(max-width:767px){
     .footer-col{
-        width: 50%;
+        width: 100%;
         margin-bottom: 30px;
     }
     .custom-image-col{
@@ -121,9 +121,8 @@ ul{
     }
 }@media(max-width:576px){
     .footer-col{
-        width: 80%;
-        margin-right: 5.7rem;
-        margin-bottom: 30px;
+        width: 50%;
+        margin-bottom: 10px;
     }
     .custom-image-col{
         width: 50%;
@@ -131,4 +130,12 @@ ul{
     }
     
 }
+@media screen and (max-width: 1068px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+          padding-right: 5rem;
+    }
+}
+  
 
