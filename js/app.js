@@ -4,12 +4,14 @@ const cancelBtn = document.querySelector(".cancel-icon");
 const searchData = document.querySelector(".search-data");
 searchBtn.onclick =()=>{
   searchBox.classList.add("active");
+  searchBtn.classList.add("active");
   searchInput.classList.add("active");
   cancelBtn.classList.add("active");
   searchInput.focus();
   if(searchInput.value != ""){
     var values = searchInput.value;
     searchData.classList.remove("active");
+    searchData.innerHTML = "You just typed " + "<span style='font-weight: 500;'>" + values + "</span>";
   }else{
     searchData.textContent = "";
   }

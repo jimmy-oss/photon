@@ -77,3 +77,25 @@ body {
   cursor: pointer;
   text-shadow: 1px 1px black;
 }
+/* Responsiveness */
+@media(max-width:767px){
+  .search-box{
+     right: 28rem;
+     top: 4rem;  
+     height: 60px;
+    width: 60px;
+  }
+   
+  
+}
+@media(max-width:576px){
+  .footer-col{
+      width: 100%;
+      margin-bottom: 30px;
+  }
+  .custom-image-col{
+      width: 100%;
+      padding: 0 40px;
+
+  }
+}

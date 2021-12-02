@@ -26,6 +26,7 @@ h1{
 h3{
     text-align: center;
     color: white;
+    text-shadow: 1px 1px black; 
 }
 .get strong{
     color:yellow;
@@ -40,6 +41,7 @@ h3{
 #navbarNav ul li .active{
     color: red;
 }
+ /* Footer */
 .footer{
     background-color:black;
     padding: 25px 0;
@@ -71,7 +73,6 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    margin-left: 4rem;
     background-color: red;
     box-sizing: border-box;
     width: 50px;
@@ -85,10 +86,13 @@ ul{
     text-transform: capitalize;
     transition: 0.3s ease;
     display: block;
+
 }
 .footer-col ul li a:hover{
     padding-left: 10px;
+
 }
+
 .footer-col .social-icon a{
     background-color: white;
     text-decoration: none;
@@ -104,7 +108,9 @@ ul{
     transition: 0.3 ease;
     background-color: black;
     color: white;
+
 }
+
 /* Responsiveness */
 @media(max-width:767px){
     .footer-col{
@@ -122,5 +128,6 @@ ul{
     .custom-image-col{
         width: 100%;
         padding: 0 40px;
+
     }
 }

@@ -4,56 +4,105 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/favourites.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/favourites.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <title>Favourites</title>
 </head>
 <body>
-
-  <header>
-    <a href="#" class="logo"><h2>photon<span>.</span></h2></a>
-      <ul class="navbar">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./favourites.html">Blog</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-  </header>
+  <section class="navigation container">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+        <h3>
+            <a class="navbar-brand" href="#">
+                <strong>Photon <span>.</span></strong>
+            </a>
+        </h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contect.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
   
   <section class="home">
     <div class="home-text">
-      <h1>Our Top.<span>Archives</span></h1>
+      <h5>Our Top.<span>Picks For The Week</span></h5>
       <p>This Is our Top picked photos by our experts.</p>
       <p>The Photos are handpicked and mainly represent our core values which is natural art.</p>
-      <p>Mainly <span>N</span>ature,<span>W</span>ildlife & <span>H</span>Heritage</p>
+      <p>Mainly <span>N</span>ature,<span>W</span>ildlife & <span>H</span>eritage</p>
     </div>
   </section>
-
+​
   <section class="polygon">
-    <img src="./images/elijah-m-henderson-Wnp_V0ElkKU-unsplash.jpg" alt="">
-    <img src="./images/harshil-gudka-OtcjUowcR_c-unsplash.jpg" alt="">
-    <img src="./images/ian-macharia-7k91OUDYAQ0-unsplash.jpg" alt="">
-    <img src="./images/jason-zhao-hdsY-INDuvk-unsplash.jpg" alt="">
-    <img src="./images/matt-atherton-sUTZ280MFpc-unsplash (1).jpg" alt="">
+    <img src="images/elijah-m-henderson-Wnp_V0ElkKU-unsplash.jpg" alt="">
+    <img src="images/harshil-gudka-OtcjUowcR_c-unsplash.jpg" alt="">
+    <img src="images/ian-macharia-7k91OUDYAQ0-unsplash.jpg" alt="">
+    <img src="images/jason-zhao-hdsY-INDuvk-unsplash.jpg" alt="">
+    <img src="images/matt-atherton-sUTZ280MFpc-unsplash (1).jpg" alt="">
     <img src="images/melissa-van-niekerk-x4NfG61O4B4-unsplash.jpg" alt="">
     <img src="images/mpumelelo-macu-l_YNobbDYJk-unsplash.jpg" alt="">
     <img src="images/musiime-muramura-IgzYRKI8vGo-unsplash.jpg" alt="">
-    <img src="images/naja-bertolt-jensen-Uu1CtKngEXY-unsplash.jpg" alt="">
-    <img src="images/harshil-gudka-RYrG3r1Daj4-unsplash.jpg" alt="">
-    <img src="images/ahmed-galal-Yhjr-BrU8Kk-unsplash.jpg" alt="">
-    <img src="images/solomon-sang-jcuKAI8SNxU-unsplash.jpg" alt="">
-    <img src="images/ahmed-galal-JCMFVH8uAPQ-unsplash.jpg" alt="">
-    <img src="images/ahmed-galal-VQqMACyNfwA-unsplash.jpg" alt="">
-    <img src="images/photos-by-beks-lqVe6NdK8bQ-unsplash.jpg" alt="">
-    <img src="images/elijah-m-henderson-Wnp_V0ElkKU-unsplash.jpg" alt="">
-    <img src="images/grace-nandy-Soa9a8-gPAs-unsplash.jpg" alt="">
-    <img src="images/harshil-gudka-OtcjUowcR_c-unsplash.jpg" alt="">
-    <img src="images/hu-chen-0LwfbRtQ-ac-unsplash.jpg" alt="">
-    <img src="images/sutirta-budiman-89IBtfoz3Vw-unsplash.jpg" alt="">
-    <img src="images/sutirta-budiman-kjOBqwMUnWw-unsplash.jpg" alt="">
-    <img src="images/solomon-sang-jcuKAI8SNxU-unsplash.jpg" alt="">
-    <img src="images/tarryn-myburgh-BHltFoLSv1M-unsplash.jpg" alt="">
-    <img src="images/sneha-cecil-gdOTEneIiGQ-unsplash.jpg" alt="">
-  </section>  
-  <script src="./js/favourites.js"></script>
+  </section>
+​
+​
+​
+    <section class="cards  container" id="info">
+      <div class="row custom-flex" >
+          <div class="col-sm-3 custom-image-col">
+              <div class="card custom-shadow" style="width: auto; ">
+                  <img src="./images/image5.jpg" class="card-img-top" alt="...">
+                  <div class="information">
+                    <p class="px-3">By Richard Bonham, Executive Chairman I am incredibly proud to introduce Big Life’s new CEO, Benson Leyian, for many reasons. Benson is “home-grown.’’ He hails from Mbirikani…</p>
+                  </div>
+              </div><br>
+          </div>
+          <div class="col-sm-3 custom-image-col">
+              <div class="card custom-shadow" style="width: auto; ">
+                  <img src="./images/image2.jpg" class="card-img-top" alt="...">
+                  <div class="information">
+                    <p class="px-3">Big Life’s conservation programs fit into three distinct buckets: wildlife protection, habitat protection, and community support. We’ve learned that each is necessary for the…</p>
+                  </div>
+              </div><br>
+          </div>
+          <div class="col-sm-3 custom-image-col">
+              <div class="card custom-shadow" style="width: auto;" >
+                  <img src="./images/image4.jpg" class="card-img-top" alt="...">
+                  <div class="information">
+                    <p class="px-3">It was an affair that this year’s graduates will always remember. Accompanied by a rousing brass band, their impeccable uniforms and faultless marching was an impressive spectacle…</p>
+                  </div>
+              </div><br>
+          </div>
+          <div class="col-sm-3 custom-image-col">
+              <div class="card custom-shadow" style="width: auto; ">
+                  <img src="./images/image6.jpg" class="card-img-top" alt="...">
+                  <div class="information">
+                    <p>What if wildlife and people could flourish in the same place, forever? This is exactly what Big Life Foundation is dedicated to achieving in the Greater Amboseli ecosystem, and…
+                    </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="js/favourites.js"></script>
+​
 </html>
