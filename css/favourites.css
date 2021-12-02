@@ -77,11 +77,17 @@ span{
   padding: 10px 10%;
 } */
 
+/* Home */
 .home{
   display: grid;
   align-items: center;
   text-align: center;
   margin-bottom: 100px;
+}
+
+.home-text{
+  color: #000;
+  font-weight: 600;
 }
 
 .home-text h1{
@@ -122,12 +128,23 @@ span{
   transform: scale(2);
 }
 
+
+/* events */
 .cards{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 80px;
+}
+
+.card-heading{
+  text-align: center;
   margin-top: 150px;
+}
+
+.card-heading h3{
+  color: grey;
 }
 
 .cards-two{
@@ -139,10 +156,11 @@ span{
 }
 
 .blog-post{
-  max-width: 98rem;
+  /* max-width: 70rem; */
+  width: 85%;
   padding: 5rem;
   background-color:#fff ;
-  box-shadow: 0 1.4rem 10rem rgba(0, 0, 0,.2);
+  box-shadow: 0 1.4rem 5rem rgba(0, 0, 0,.2);
   display: flex;
   align-items: center;
   border-radius: .8em;
@@ -205,7 +223,7 @@ span{
   border-radius: 1rem;
 }
 
-p{
+.blog-post_text{
   color: #000;
 }
 
@@ -213,6 +231,95 @@ p{
   background-image: linear-gradient(to right, #fe0000 0%, #fe4f4f 100%);
 
 }
+
+/* Social */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.container{
+  max-width: 78rem;
+  padding: 1.5rem;
+}
+
+.flashs{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.flash{
+  background-color: #000;
+  color: white;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.flash-title-large{
+  letter-spacing: .3rem;
+  font-size: 5rem;
+  transform: translateX(7rem);
+  color: #8d8d8d;
+  transition: transform 5s;
+}
+
+.flash-title-small{
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.flash-description{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.flash-link{
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  margin-top: 1rem;
+  align-self: flex-end;
+}
+
+.flash:hover .flash-title-large {
+  transform: translateX(-150%);
+  color: #fff;
+}
+
+.flash.twitter:hover{
+  background-color: #1da1f2;
+}
+
+.flash.instagram:hover{
+  background-image: radial-gradient(at 20% 128%, #feda78 20%,#e23467 60%, #ac2bb3 90%);
+}
+
+.flash.facebook:hover {
+  background-color: #3b5998 ;
+}
+
+.flash.youtube:hover {
+  background-color:#FF0000 ;
+}
+
+footer{
+  padding: 0.2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: grey;
+  font-weight: 900;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 1068px) {
   .blog-post{
