@@ -1,5 +1,5 @@
 #contactus{
-    background-image:url("../images/newwww.jpg");
+    background-image:url("../images/contact.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -26,7 +26,6 @@ h1{
 h3{
     text-align: center;
     color: white;
-    text-shadow: 1px 1px black; 
 }
 .get strong{
     color:yellow;
@@ -41,7 +40,7 @@ h3{
 #navbarNav ul li .active{
     color: red;
 }
- /* Footer */
+  /* Footer */
 .footer{
     background-color:black;
     padding: 25px 0;
@@ -131,3 +130,4 @@ ul{
 
     }
 }
+
