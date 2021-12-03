@@ -30,8 +30,6 @@ body{
   /* overflow: hidden; */
   color: #000;
   background-color: #fff;
-  /* display: grid; */
-  /* align-items: center; */
 }
 
 header{
@@ -329,33 +327,7 @@ footer{
   font-weight: 900;
 }
 
-/* @media (max-width:921px){
-  header{
-    padding: 14px 41px;
-  }
-}
-
-@media (max-width:768px){
-  #menu-icon{
-    display: initial;
-  }
-  header .navbar{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    transition: 0.2s ease;
-  }
-
-  .navbar a{
-    padding: 1.5rem;
-    display: block;
-  }
-} */
-
+/* Header Section */
 
 @media (max-width:646px){
   header{
@@ -390,9 +362,6 @@ footer{
 
 
 }
-
-
-
 
 /* for cards events section */
 
@@ -447,7 +416,7 @@ footer{
     height: 150px;
   }
   .home{
-    text-align: cente;
+    text-align: center;
   }
   
 }
